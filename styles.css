@@ -65,11 +65,15 @@ h1 {
 .navbar {
   font-weight: bold;
   background-color: rgb(93, 212, 115);
-  padding: 3%;
   position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   position: fixed;
+}
+
+.home-page {
+  background-color: rgb(226, 43, 141);
+  padding: 2%;
 }
