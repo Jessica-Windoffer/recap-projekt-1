@@ -7,6 +7,10 @@ header {
   padding: 5px;
   text-align: center;
   background-color: rgb(151, 226, 165);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 h1 {
