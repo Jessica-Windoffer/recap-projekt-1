@@ -1,10 +1,12 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 header {
-  padding: 2%;
+  padding: 5%;
   text-align: center;
   background-color: rgb(93, 212, 115);
   position: fixed;
@@ -20,6 +22,7 @@ h1 {
 
 .question-cards {
   position: absolute;
+  padding: 10%;
 }
 
 .question-cards-answer-hidden,
@@ -41,10 +44,12 @@ h1 {
 
 .question {
   font-weight: bold;
+  padding: 5%;
 }
 
 .answer {
   font-style: oblique;
+  padding: 5%;
 }
 
 .categorie-tags {
@@ -54,15 +59,17 @@ h1 {
 
 .button-show-answer,
 .button-hide-answer {
-  padding: 10px;
+  padding: 3%;
 }
 
 .navbar {
   font-weight: bold;
-  color: rgb(0, 39, 157);
   background-color: rgb(93, 212, 115);
-  padding: 2%;
+  padding: 3%;
   position: absolute;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
 }
