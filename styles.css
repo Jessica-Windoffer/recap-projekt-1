@@ -56,3 +56,13 @@ h1 {
 .button-hide-answer {
   padding: 10px;
 }
+
+.navbar {
+  font-weight: bold;
+  color: rgb(0, 39, 157);
+  background-color: rgb(93, 212, 115);
+  padding: 2%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
