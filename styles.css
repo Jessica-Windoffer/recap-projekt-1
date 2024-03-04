@@ -3,6 +3,12 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+header {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(151, 226, 165);
+}
+
 h1 {
   color: coral;
 }
