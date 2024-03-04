@@ -4,15 +4,55 @@
 }
 
 header {
-  padding: 5px;
+  padding: 2%;
   text-align: center;
-  background-color: rgb(151, 226, 165);
+  background-color: rgb(93, 212, 115);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  position: relative;
 }
 
 h1 {
-  color: coral;
+  color: rgb(0, 39, 157);
+}
+
+.question-cards {
+  position: absolute;
+}
+
+.question-cards-answer-hidden,
+.question-cards-answer-shown,
+.question-cards-question-bookmarked {
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.bookmark-blank {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  font-style: oblique;
+}
+
+.categorie-tags {
+  font-size: smaller;
+  padding: 5%;
+}
+
+.button-show-answer,
+.button-hide-answer {
+  padding: 10px;
 }
