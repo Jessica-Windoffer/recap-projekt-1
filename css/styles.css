@@ -65,13 +65,13 @@ h1 {
   font-weight: bold;
   background-color: rgb(93, 212, 115);
   padding: 1%;
-  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  bottom: 0;
+  left: 0;
 }
 
 #home-page {
