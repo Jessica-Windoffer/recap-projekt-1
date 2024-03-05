@@ -8,6 +8,7 @@
     />
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.json" defer></script>
   </head>
   <body>
     <header>
@@ -19,25 +20,10 @@
           <img
             class="bookmark_blank"
             width="15%"
-            src="./svg/bookmark_blank.svg"
-          />
-          <p class="question">What property flips the axes in flexbox?</p>
-          <button class="button-show-answer">Show Answer</button>
-          <div class="categorie-tags">
-            <a href="#">#html</a>
-            <a href="#">#flexbox</a>
-            <a href="#">#css</a>
-          </div>
-        </figure>
-        <figure class="question-cards-answer-shown">
-          <img
-            class="bookmark_blank"
-            width="15%"
             src="./svg/bookmark_filled.svg"
           />
           <p class="question">What property flips the axes in flexbox?</p>
-          <button class="button-hide-answer">Hide Answer</button>
-          <p class="answer">flex-direction</p>
+          <button class="button-show-answer">Show Answer</button>
           <div class="categorie-tags">
             <a href="#">#html</a>
             <a href="#">#flexbox</a>
@@ -63,15 +49,20 @@
       <nav>
         <div class="navbar">
           <a href="index.html"
-            ><img class="home-page" width="10%" src="./svg/home-icon.svg"
+            ><img class="home-page" width="25%" src="./svg/home-icon.svg"
           /></a>
           <a href="#"
             ><img
               class="bookmarks-page"
-              width="10%"
+              width="25%"
               src="./svg/bookmark_filled.svg"
           /></a>
-          <img class="profile-page" width="10%" src="./svg/profile-icon.svg" />
+          <a href="#"></a>
+            <img
+              class="profile-page"
+              width="10%"
+              src="./svg/profile-icon.svg"
+            /></a>
         </div>
       </nav>
     </main>
