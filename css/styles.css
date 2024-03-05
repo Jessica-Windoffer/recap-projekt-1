@@ -19,6 +19,12 @@ h1 {
   color: rgb(0, 39, 157);
 }
 
+h2 {
+  color: rgb(0, 39, 157);
+  text-align: center;
+  padding-top: 5%;
+}
+
 .question-cards {
   position: absolute;
   padding: 10%;
@@ -74,12 +80,10 @@ h1 {
   left: 0;
 }
 
-#home-page {
+#home-page,
+#bookmarks-page,
+#profile-page {
   background-color: rgb(226, 43, 141);
   padding: 3%;
-}
-
-#bookmarks-page {
-  background-color: rgb(226, 43, 141);
-  padding: 3%;
+  border-radius: 10px;
 }
