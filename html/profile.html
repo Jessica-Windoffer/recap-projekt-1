@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <section class="question-cards">
+        <figure class="answer-hidden">
+          <img
+            class="bookmark_blank"
+            width="15%"
+            src="../svg/bookmark_blank.svg"
+          />
+          <p class="question">What property flips the axes in flexbox?</p>
+          <button class="button-show-answer">Show Answer</button>
+          <div class="categorie-tags">
+            <a href="#">#html</a>
+            <a href="#">#flexbox</a>
+            <a href="#">#css</a>
+          </div>
+        </figure>
+        <figure class="answer-shown">
+          <img
+            class="bookmark_blank"
+            width="15%"
+            src="../svg/bookmark_filled.svg"
+          />
+          <p class="question">What property flips the axes in flexbox?</p>
+          <button class="button-hide-answer">Hide Answer</button>
+          <p class="answer">flex-direction</p>
+          <div class="categorie-tags">
+            <a href="#">#html</a>
+            <a href="#">#flexbox</a>
+            <a href="#">#css</a>
+          </div>
+        </figure>
+        <figure class="question-bookmarked">
+          <img
+            class="bookmark_blank"
+            width="15%"
+            src="../svg/bookmark_filled.svg"
+          />
+          <p class="question">Lorem Ipsum dolor sit?</p>
+          <button class="button-show-answer">Show Answer</button>
+          <div class="categorie-tags">
+            <a href="#">#lorem</a>
+            <a href="#">#ipsum</a>
+            <a href="#">#dolor</a>
+            <a href="#">#sit</a>
+          </div>
+        </figure>
+      </section>
+      <!--<nav class="navbar">
+        <div>
+          <div class="home-page">
+            <img width="10%" src="./svg/home-icon.svg">
+            <link href="#">Home</link>
+          </div>
+          <div class="bookmarks-page">
+            <img width="10%" src="./svg/bookmark_filled.svg">
+            <link href="#">Bookmarks</link>
+          </div>
+          <div class="profile-page">
+            <img width="10%" src="./svg/profile-icon.svg">
+            <link href="#">Profile</link>
+          </div>
+        </div>
+      </nav> -->
+      <nav class="navbar">
+        <a href="#"
+          ><img id="home-page" width="25%" src="../svg/home-icon.svg"
+        /></a>
+        <a href="bookmarks.html"
+          ><img
+            class="bookmarks-page"
+            width="25%"
+            src="../svg/bookmark_filled.svg"
+        /></a>
+        <a href="#">
+          <img class="profile-page" width="25%" src="../svg/profile-icon.svg" />
+        </a>
+      </nav>
+    </main>
+  </body>
+</html>
