@@ -10,8 +10,6 @@ header {
   text-align: center;
   background-color: rgb(93, 212, 115);
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -26,9 +24,9 @@ h1 {
   padding: 10%;
 }
 
-.question-cards-answer-hidden,
-.question-cards-answer-shown,
-.question-cards-question-bookmarked {
+.answer-hidden,
+.answer-shown,
+.question-bookmarked {
   outline-color: black;
   outline-style: solid;
   outline-width: 2px;
@@ -76,12 +74,12 @@ h1 {
   z-index: 1;
 }
 
-#home-page-1 {
+#home-page {
   background-color: rgb(226, 43, 141);
   padding: 3%;
 }
 
-#bookmarks-page-1 {
+#bookmarks-page {
   background-color: rgb(226, 43, 141);
   padding: 3%;
 }
