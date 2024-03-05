@@ -7,8 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="index.json" defer></script>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
@@ -20,7 +19,7 @@
           <img
             class="bookmark_blank"
             width="15%"
-            src="./svg/bookmark_blank.svg"
+            src="../svg/bookmark_blank.svg"
           />
           <p class="question">What property flips the axes in flexbox?</p>
           <button class="button-show-answer">Show Answer</button>
@@ -34,7 +33,7 @@
           <img
             class="bookmark_blank"
             width="15%"
-            src="./svg/bookmark_filled.svg"
+            src="../svg/bookmark_filled.svg"
           />
           <p class="question">What property flips the axes in flexbox?</p>
           <button class="button-hide-answer">Hide Answer</button>
@@ -49,7 +48,7 @@
           <img
             class="bookmark_blank"
             width="15%"
-            src="./svg/bookmark_filled.svg"
+            src="../svg/bookmark_filled.svg"
           />
           <p class="question">Lorem Ipsum dolor sit?</p>
           <button class="button-show-answer">Show Answer</button>
@@ -77,24 +76,19 @@
           </div>
         </div>
       </nav> -->
-      <nav>
-        <div class="navbar">
-          <a href="#"
-            ><img class="home-page" width="25%" src="./svg/home-icon.svg"
-          /></a>
-          <a href="bookmarks.html"
-            ><img
-              class="bookmarks-page"
-              width="25%"
-              src="./svg/bookmark_filled.svg"
-          /></a>
-          <a href="#"></a>
-            <img
-              class="profile-page"
-              width="10%"
-              src="./svg/profile-icon.svg"
-            /></a>
-        </div>
+      <nav class="navbar">
+        <a href="#"
+          ><img id="home-page-1" width="25%" src="../svg/home-icon.svg"
+        /></a>
+        <a href="bookmarks.html"
+          ><img
+            class="bookmarks-page"
+            width="25%"
+            src="../svg/bookmark_filled.svg"
+        /></a>
+        <a href="#">
+          <img class="profile-page" width="25%" src="../svg/profile-icon.svg" />
+        </a>
       </nav>
     </main>
   </body>

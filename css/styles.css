@@ -14,6 +14,7 @@ header {
   left: 0;
   width: 100%;
   position: relative;
+  z-index: 1;
 }
 
 h1 {
@@ -65,15 +66,22 @@ h1 {
 .navbar {
   font-weight: bold;
   background-color: rgb(93, 212, 115);
-  position: absolute;
+  padding: 1%;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
+  z-index: 1;
 }
 
-.home-page {
+#home-page-1 {
   background-color: rgb(226, 43, 141);
-  padding: 2%;
+  padding: 3%;
+}
+
+#bookmarks-page-1 {
+  background-color: rgb(226, 43, 141);
+  padding: 3%;
 }
