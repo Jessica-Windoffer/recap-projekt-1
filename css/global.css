@@ -1,21 +1,12 @@
+@import "../css/profile-page.css";
+@import "../css/navbar.css";
+@import "../css/header.css";
+
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding: 0;
   margin: 0;
-}
-
-header {
-  padding: 5%;
-  text-align: center;
-  background-color: rgb(93, 212, 115);
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-h1 {
-  color: rgb(0, 39, 157);
 }
 
 h2 {
@@ -63,25 +54,4 @@ h2 {
 .button-show-answer,
 .button-hide-answer {
   padding: 3%;
-}
-
-.navbar {
-  font-weight: bold;
-  background-color: rgb(93, 212, 115);
-  padding: 1%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
-#home-page,
-#bookmarks-page,
-#profile-page {
-  background-color: rgb(226, 43, 141);
-  padding: 3%;
-  border-radius: 10px;
 }

@@ -1,0 +1,20 @@
+.navbar {
+  font-weight: bold;
+  background-color: rgb(93, 212, 115);
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.home-page,
+.bookmarks-page,
+.profile-page {
+  fill: rgb(255, 132, 0);
+  padding: 3%;
+  border-radius: 10px;
+}
