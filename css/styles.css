@@ -11,7 +11,6 @@ header {
   background-color: rgb(93, 212, 115);
   position: fixed;
   width: 100%;
-  position: relative;
   z-index: 1;
 }
 
@@ -26,7 +25,6 @@ h2 {
 }
 
 .question-cards {
-  position: absolute;
   padding: 10%;
 }
 
