@@ -1,9 +1,12 @@
 header {
-  padding: 5%;
-  text-align: center;
   background-color: rgb(93, 212, 115);
-  position: fixed;
+  padding-top: 5%;
+  padding-bottom: 5%;
   width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
   z-index: 1;
 }
 

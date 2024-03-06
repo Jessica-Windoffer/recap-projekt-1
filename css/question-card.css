@@ -1,0 +1,40 @@
+.question-cards {
+  padding: 7%;
+}
+
+.answer-hidden,
+.answer-shown,
+.question-bookmarked {
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.bookmark-blank {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.question {
+  font-weight: bold;
+  padding: 5%;
+}
+
+.answer {
+  font-style: oblique;
+  padding: 5%;
+}
+
+.categorie-tags {
+  font-size: smaller;
+  padding: 5%;
+}
+
+.button-show-answer,
+.button-hide-answer {
+  padding: 3%;
+}

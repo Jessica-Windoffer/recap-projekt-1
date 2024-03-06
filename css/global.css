@@ -1,6 +1,7 @@
 @import "../css/profile-page.css";
 @import "../css/navbar.css";
 @import "../css/header.css";
+@import "../css/question-card.css";
 
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -12,46 +13,5 @@
 h2 {
   color: rgb(0, 39, 157);
   text-align: center;
-  padding-top: 5%;
-}
-
-.question-cards {
-  padding: 10%;
-}
-
-.answer-hidden,
-.answer-shown,
-.question-bookmarked {
-  outline-color: black;
-  outline-style: solid;
-  outline-width: 2px;
-  padding: 5%;
-  text-align: center;
-  margin-bottom: 10%;
-}
-
-.bookmark-blank {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.question {
-  font-weight: bold;
-  padding: 5%;
-}
-
-.answer {
-  font-style: oblique;
-  padding: 5%;
-}
-
-.categorie-tags {
-  font-size: smaller;
-  padding: 5%;
-}
-
-.button-show-answer,
-.button-hide-answer {
-  padding: 3%;
+  padding-top: 25%;
 }
