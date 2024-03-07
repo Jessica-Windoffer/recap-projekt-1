@@ -1,0 +1,17 @@
+@import "../css/profile-page.css";
+@import "../css/navbar.css";
+@import "../css/header.css";
+@import "../css/question-card.css";
+
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(0, 39, 157);
+  text-align: center;
+  padding-top: 25%;
+}

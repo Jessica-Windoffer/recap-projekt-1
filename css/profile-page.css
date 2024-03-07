@@ -1,0 +1,44 @@
+@import "../css/switch.css";
+h3 {
+  color: rgb(0, 39, 157);
+  padding-right: 3%;
+}
+h3.number-for-counter-creater-questions,
+h3.number-for-counter-bookmarks {
+  padding-left: 20%;
+}
+
+h4 {
+  padding-top: 3%;
+}
+
+p {
+  color: rgb(0, 39, 157);
+}
+
+.picture-and-name,
+.counter,
+.counter-created-questions,
+.counter-bookmarks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-me,
+.counter,
+.settings {
+  padding: 2.5%;
+}
+
+.questionmark,
+.bookmark-filled {
+  fill: rgb(0, 39, 157);
+}
+
+.dark-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 50%;
+}
