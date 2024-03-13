@@ -8,15 +8,29 @@
     />
     <title>Quiz App</title>
     <link rel="stylesheet" href="../css/global.css" />
-    <script src="../js/index.js"></script>
+    <script src="../js/index.js" defer></script>
   </head>
-  <body>
+  <body class="form-height">
     <header>
       <h1>Quiz App</h1>
     </header>
-    <main>
+    <main class="form-height">
       <h2>Add new card</h2>
-      <form class="question-cards"></form>
+      <form class="fields">
+        <div>
+          <label for="question">Your Question:</label>
+          <input name="question" id="question" />
+        </div>
+        <div>
+          <label for="answer">Your Answer:</label>
+          <input name="answer" id="answer" />
+        </div>
+        <div>
+          <label for="tag">Tag:</label>
+          <input name="tag" id="tag" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </main>
     <nav class="navbar">
       <a href="#"

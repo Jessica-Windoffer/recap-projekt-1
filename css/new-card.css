@@ -1,0 +1,24 @@
+/* #question,
+#answer {
+  width: 98%;
+}
+
+#tag {
+  width: 98%;
+}
+
+button {
+  width: 30%;
+} */
+
+.form-height {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.fields {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
