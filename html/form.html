@@ -17,18 +17,36 @@
     <main class="form-height">
       <h2>Add new card</h2>
       <form class="fields">
-        <div>
+        <section>
           <label for="question">Your Question:</label>
-          <input name="question" id="question" />
-        </div>
-        <div>
+          <textarea
+            name="question"
+            id="question"
+            cols="30"
+            rows="10"
+            data-js="questionContent"
+          ></textarea>
+          <small class="characterCount"
+            ><span data-js="charactersLeft"></span> characters left</small
+          >
+        </section>
+        <section>
           <label for="answer">Your Answer:</label>
-          <input name="answer" id="answer" />
-        </div>
-        <div>
+          <textarea
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="10"
+            data-js="answerContent"
+          ></textarea>
+          <small class="characterCount"
+            ><span data-js="charactersLeft"></span> characters left</small
+          >
+        </section>
+        <section>
           <label for="tag">Tag:</label>
-          <input name="tag" id="tag" />
-        </div>
+          <textarea name="tag" id="tag" cols="30" rows="10"></textarea>
+        </section>
         <button type="submit">Submit</button>
       </form>
     </main>
