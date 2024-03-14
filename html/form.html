@@ -10,61 +10,65 @@
     <link rel="stylesheet" href="../css/global.css" />
     <script src="../js/index.js" defer></script>
   </head>
-  <body>
+  <body class="form-height">
     <header>
       <h1>Quiz App</h1>
     </header>
-    <main>
-      <h2>Bookmarks</h2>
-      <section class="question-cards">
-        <figure class="answer-hidden">
-          <img
-            class="bookmark_blank"
-            width="15%"
-            src="../svg/bookmark_filled.svg"
-          />
-          <p class="question">What property flips the axes in flexbox?</p>
-          <button class="button-show-answer">Show Answer</button>
-          <div class="categorie-tags">
-            <a href="#">#html</a>
-            <a href="#">#flexbox</a>
-            <a href="#">#css</a>
-          </div>
-        </figure>
-        <figure class="question-bookmarked">
-          <img
-            class="bookmark_blank"
-            width="15%"
-            src="../svg/bookmark_filled.svg"
-          />
-          <p class="question">Lorem Ipsum dolor sit?</p>
-          <button class="button-show-answer">Show Answer</button>
-          <div class="categorie-tags">
-            <a href="#">#lorem</a>
-            <a href="#">#ipsum</a>
-            <a href="#">#dolor</a>
-            <a href="#">#sit</a>
-          </div>
-        </figure>
-      </section>
+    <main class="form-height">
+      <h2>Add new card</h2>
+      <form class="fields">
+        <section>
+          <label for="question">Your Question:</label>
+          <textarea
+            name="question"
+            id="question"
+            cols="30"
+            rows="10"
+            maxlength="150"
+            data-js="questionContent"
+          ></textarea>
+          <small class="characterCount"
+            ><span data-js="charactersLeftQC"></span> characters left</small
+          >
+        </section>
+        <section>
+          <label for="answer">Your Answer:</label>
+          <textarea
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="10"
+            maxlength="150"
+            data-js="answerContent"
+          ></textarea>
+          <small class="characterCount"
+            ><span data-js="charactersLeftAC"></span> characters left</small
+          >
+        </section>
+        <section>
+          <label for="tag">Tag:</label>
+          <textarea name="tag" id="tag" cols="30" rows="10"></textarea>
+        </section>
+        <button type="submit">Submit</button>
+      </form>
     </main>
     <nav class="navbar">
-      <a href="../html/index.html"
+      <a href="#"
         ><svg viewBox="0 0 24 24" width="40" height="40">
           <path
             d="M19,24H5c-2.757,0-5-2.243-5-5V9.724c0-1.665,.824-3.215,2.204-4.145L9.203,.855c1.699-1.146,3.895-1.146,5.594,0l7,4.724c1.379,.93,2.203,2.479,2.203,4.145v9.276c0,2.757-2.243,5-5,5Z"
           />
         </svg>
       </a>
-      <a href="#"
-        ><svg class="bookmarks-page" viewBox="0 0 24 24" width="40" height="40">
+      <a href="bookmarks.html"
+        ><svg viewBox="0 0 24 24" width="40" height="40">
           <path
             d="M2.849,23.55a2.954,2.954,0,0,0,3.266-.644L12,17.053l5.885,5.853a2.956,2.956,0,0,0,2.1.881,3.05,3.05,0,0,0,1.17-.237A2.953,2.953,0,0,0,23,20.779V5a5.006,5.006,0,0,0-5-5H6A5.006,5.006,0,0,0,1,5V20.779A2.953,2.953,0,0,0,2.849,23.55Z"
           />
         </svg>
       </a>
-      <a href="form.html"
-        ><svg viewBox="0 0 24 24" width="40" height="40">
+      <a href="#"
+        ><svg class="form-page" viewBox="0 0 24 24" width="40" height="40">
           <path
             d="m12 0a12 12 0 1 0 12 12 12.013 12.013 0 0 0 -12-12zm4 13h-3v3a1 1 0 0 1 -2 0v-3h-3a1 1 0 0 1 0-2h3v-3a1 1 0 0 1 2 0v3h3a1 1 0 0 1 0 2z"
           />
