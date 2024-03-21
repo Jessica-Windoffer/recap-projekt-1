@@ -1,9 +1,9 @@
-@import "../css/profile-page.css";
-@import "../css/navbar.css";
-@import "../css/header.css";
+@import "../components/Profile/profile.css";
+@import "../components/Navbar/navbar.css";
+@import "../components/Header/header.css";
 @import "../css/question-card.css";
 @import "../css/new-card.css";
-
+@import "../components/Switch/switch.css";
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
