@@ -8,7 +8,7 @@
     />
     <title>Quiz App</title>
     <link rel="stylesheet" href="../css/global.css" />
-    <script src="../js/index.js" defer></script>
+    <script src="../js/form.js" defer></script>
   </head>
   <body class="form-height">
     <header>
@@ -16,7 +16,7 @@
     </header>
     <main class="form-height">
       <h2>Add new card</h2>
-      <form class="fields">
+      <form class="fields" data-js="new-card">
         <section>
           <label for="question">Your Question:</label>
           <textarea
@@ -47,7 +47,13 @@
         </section>
         <section>
           <label for="tag">Tag:</label>
-          <textarea name="tag" id="tag" cols="30" rows="10"></textarea>
+          <textarea
+            name="tag"
+            id="tag"
+            cols="30"
+            rows="10"
+            data-js="tag"
+          ></textarea>
         </section>
         <button type="submit">Submit</button>
       </form>
